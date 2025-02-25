@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Lab 3</title>
+  <script src="p5/p5.js"></script>
+  <script src="p5/addons/p5.sound.min.js"></script>
+  <!-- Load the two sketches -->
+  <script src="scripts/interactive-music.js"></script>
+  <script src="scripts/binaural-3d.js"></script>
+  <!-- Then load our main switching script -->
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Music Lab 3</h1>
+  <nav>
+    <button onclick="loadSketch('interactive-music')">🎵 Interactive Music</button>
+    <button onclick="loadSketch('binaural-3d')">🎧 Binaural 3D Sound</button>
+    <button onclick="stopSketch()">⏹ Stop</button>
+  </nav>
+  <div id="sketch-container">
+    <p>Select an experience above to begin.</p>
+  </div>
+</body>
+</html>

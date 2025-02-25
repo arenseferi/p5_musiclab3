@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    margin: 20px 0;
+  }
+  
+  nav button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #sketch-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
